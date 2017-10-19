@@ -1,6 +1,6 @@
 {
   "name": "homebridge-rc433-motion-sensor",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "description": "A Homebridge plugin for a 433 MHz motion sensor, that transmit data to a 433 MHz receiver of a Raspberry Pi.",
   "main": "index.js",
   "scripts": {
