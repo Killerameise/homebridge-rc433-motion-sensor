@@ -1,0 +1,40 @@
+{
+  "name": "homebridge-rc433-motion-sensor",
+  "version": "0.0.7",
+  "description": "A Homebridge plugin for a 433 MHz motion sensor, that transmit data to a 433 MHz receiver of a Raspberry Pi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Killerameise/homebridge-rc433-motion-sensor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Killerameise/homebridge-rc433-motion-sensor/issues"
+  },
+  "dependencies": {
+    "rpi-433": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=6.9.2",
+    "homebridge": ">=0.2.0"
+  },
+  "keywords": [
+    "motion",
+    "sensor",
+    "433",
+    "MHz",
+    "receiver",
+    "raspberry",
+    "pi",
+    "siri",
+    "homebridge",
+    "homebridge-plugin",
+    "ios",
+    "homekit",
+    "gpio"
+  ],
+  "author": "Jaspar Mang",
+  "license": "ISC"
+}
