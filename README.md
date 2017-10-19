@@ -10,7 +10,7 @@ This Homebridge plugin enables you to control a 433 MHz motion sensor. All you n
 2) Install this plugin
 
 ```bash
-npm i -g homebridge-contact-sensor
+npm i -g homebridge-rc433-motion-sensor
 ```
 
 3) Rename the sample-config.json to config.json and integrate your sensors in the accessories array. The pins
