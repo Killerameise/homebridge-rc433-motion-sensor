@@ -47,7 +47,8 @@ function MotionSensor433MHz(log, config) {
 	    if(timerOff != undefined){
 	    motionService = this.service;
 	    setTimeout(function() {
-    				motionService.setCharacteristic(Characteristic.MotionDetected, false);
+		    		motionDetected = false;
+    				motionService.setCharacteristic(Characteristic.MotionDetected, motionDetected);
 			}, timerOff);	 
             
 	    }
