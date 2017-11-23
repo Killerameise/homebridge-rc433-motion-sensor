@@ -30,3 +30,5 @@ Accessory JSON config looks like:
       "off": 5510484
 }
 ```
+
+Optional parameter:  ```"timerOff": ms```. The motion sensor is turning off after the timer expired even if there was no off code.
